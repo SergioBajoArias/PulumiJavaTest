@@ -1,0 +1,7 @@
+name: PulumiJavaTest
+description: A minimal Kubernetes Java Pulumi program
+runtime: java
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: kubernetes-java
