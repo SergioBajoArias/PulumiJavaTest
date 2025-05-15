@@ -26,7 +26,7 @@ public class App {
                             .selector(LabelSelectorArgs.builder()
                                     .matchLabels(labels)
                                     .build())
-                            .replicas(1)
+                            .replicas(2)
                             .template(PodTemplateSpecArgs.builder()
                                     .metadata(ObjectMetaArgs.builder()
                                             .labels(labels)
