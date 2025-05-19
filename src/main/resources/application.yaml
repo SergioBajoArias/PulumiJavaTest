@@ -1,0 +1,3 @@
+pulumi:
+  projectName: PulumiJavaTest
+  stackName: dev
