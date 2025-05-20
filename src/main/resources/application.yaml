@@ -1,3 +1,9 @@
 pulumi:
   projectName: PulumiJavaTest
   stackName: dev
+
+feign:
+  client:
+    config:
+      vanapagan:
+        url: http://localhost:30080/
