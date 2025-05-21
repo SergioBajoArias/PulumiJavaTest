@@ -7,5 +7,5 @@ import lombok.Setter;
 @Setter
 public class VanapaganResponse {
     private String code;
-    private String response;
+    private String message;
 }

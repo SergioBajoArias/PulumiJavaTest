@@ -1,27 +1,14 @@
 package com.sergio.service;
 
-import com.pulumi.Context;
 import com.pulumi.automation.AutomationException;
 import com.pulumi.automation.ConfigValue;
 import com.pulumi.automation.LocalWorkspace;
 import com.pulumi.automation.WorkspaceStack;
-import com.pulumi.core.Output;
-import com.pulumi.kubernetes.apps.v1.Deployment;
-import com.pulumi.kubernetes.apps.v1.DeploymentArgs;
-import com.pulumi.kubernetes.apps.v1.inputs.DeploymentSpecArgs;
-import com.pulumi.kubernetes.core.v1.ServiceArgs;
-import com.pulumi.kubernetes.core.v1.enums.ServiceSpecType;
-import com.pulumi.kubernetes.core.v1.inputs.*;
-import com.pulumi.kubernetes.core.v1.outputs.ServiceSpec;
-import com.pulumi.kubernetes.meta.v1.inputs.LabelSelectorArgs;
-import com.pulumi.kubernetes.meta.v1.inputs.ObjectMetaArgs;
 import com.sergio.dto.UpCommand;
 import com.sergio.infra.Pulumi;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
-
-import java.util.Map;
 
 @Service
 @Slf4j
